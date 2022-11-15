@@ -19,4 +19,3 @@ while True:
     serverSocket.sendto(env.encode(), clientAddress)
     if(serverSocket.send):
         break
-    
