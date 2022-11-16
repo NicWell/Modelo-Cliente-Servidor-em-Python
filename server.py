@@ -4,7 +4,6 @@ serverPort = 10100
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(('',serverPort))
 print("Servidor Disponivel")
-listInt = [2]
 a = 0 
 b = 0
 while True:
